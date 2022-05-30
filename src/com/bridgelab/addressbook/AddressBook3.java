@@ -19,14 +19,15 @@ public class AddressBook3 {
             System.out.print("enter option:");
             String option = scanner.nextLine().trim();
             switch (option) {
+
                 case "1":
-                    addressBook.createNewContact();
+                    addressBook3.createNewContact();
                     break;
                 case "2":
-                    addressBook.fillContactDetails();
+                    addressBook3.fillContactDetails();
                     break;
                 case "3":
-                    addressBook.displayAllContacts();
+                    addressBook3.displayAllContacts();
                     break;
                 case "4":
                     addressBook.viewContactInfo();
