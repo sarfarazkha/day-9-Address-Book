@@ -21,6 +21,7 @@ public class AddressBook3 {
             switch (option) {
 
                 case "1":
+                    AddressBook addressBook3 = null;
                     addressBook3.createNewContact();
                     break;
                 case "2":
@@ -45,5 +46,11 @@ public class AddressBook3 {
 
         }
 
+    }
+
+    private void editContactInfo() {
+    }
+
+    private void viewContactInfo() {
     }
 }
